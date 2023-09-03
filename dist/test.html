@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Card Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8 px-4">
+        <!-- Mobile and Tablet View -->
+        <section class="grid grid-cols-1 gap-4 md:hidden">
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded shadow-md">
+                <h2 class="text-lg font-semibold mb-2">Card 1</h2>
+                <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dui vel libero
+                    commodo ultrices.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded shadow-md">
+                <h2 class="text-lg font-semibold mb-2">Card 2</h2>
+                <p class="text-sm">Phasellus auctor leo a odio vestibulum, eu ullamcorper mi finibus. Sed feugiat quam a
+                    lacus dictum.</p>
+            </div>
+        </section>
+
+        <!-- Desktop View -->
+        <section class="grid grid-cols-3 gap-4 hidden md:grid">
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded shadow-md">
+                <h2 class="text-lg font-semibold mb-2">Card 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dui vel libero commodo ultrices.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded shadow-md">
+                <h2 class="text-lg font-semibold mb-2">Card 2</h2>
+                <p>Phasellus auctor leo a odio vestibulum, eu ullamcorper mi finibus. Sed feugiat quam a lacus dictum.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded shadow-md">
+                <h2 class="text-lg font-semibold mb-2">Card 3</h2>
+                <p>Integer ac tortor eu dui sollicitudin fermentum a sit amet justo. Vivamus nec justo a quam tristique.
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

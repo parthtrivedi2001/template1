@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.splide__track {
+    height: 800px;
+}
+
+.slide-img {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+
+.splide__slide {
+    opacity: .7;
+}
+
+.overlay {
+    background: #000000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .7;
+}
+
+/* Clear floats after the columns */
+.row-counter:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column-counter {
+        width: 30%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Style the counter cards */
+.card-counter {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+}
+
+/* Float three columns side by side */
+.column-counter {
+    width: auto;
+    padding: 1.5%;
+}
+
+.about-img {
+    height: 450px;
+}
+
+.slider-item {
+    position: absolute;
+}
+
+.mar-slide-item {
+    margin-top: -210px;
+}
+
+.abt-img-1 {
+    margin-left: 85px;
+}
+
+@media screen and (max-width: 600px) {
+    .top-nav {
+        display: none;
+    }
+
+    nav {
+        color: white;
+        background-color: #444;
+        transition: all .3s ease-in-out;
+    }
+
+    .slider-item {
+        position: relative;
+    }
+
+    .mar-slide-item {
+        margin: 0;
+    }
+
+}
