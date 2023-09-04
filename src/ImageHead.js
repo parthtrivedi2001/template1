@@ -1,11 +1,11 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// Importing React Bootstrap
+import { Container, Row, Col, Carousel } from 'react-bootstrap';
+// Importing Images Through URL
 import HeadImg1 from './images/71QRxZvKnGL._SX3000_.jpg';
 import HeadImg2 from './images/81KkrQWEHIL._SX3000_.jpg';
 import HeadImg3 from './images/61lwJy4B8PL._SX3000_.jpg';
-import Carousel from 'react-bootstrap/Carousel';
 
+// Using Function As Default
 export default function ImageHead() {
     return (
         <Container>
@@ -26,21 +26,21 @@ export default function ImageHead() {
                 <Col className='p-2'>
                     <Carousel>
                         <Carousel.Item className='slide-height'>
-                            <img alt='slider' src={HeadImg1}/>
+                            <img alt='slider' src={HeadImg1} />
                             <Carousel.Caption>
                                 <h3>First slide label</h3>
                                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item className='slide-height'>
-                            <img alt='slider' src={HeadImg2}/>
+                            <img alt='slider' src={HeadImg2} />
                             <Carousel.Caption>
                                 <h3>Second slide label</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item className='slide-height'>
-                            <img alt='slider' src={HeadImg3}/>
+                            <img alt='slider' src={HeadImg3} />
                             <Carousel.Caption>
                                 <h3>Third slide label</h3>
                                 <p>

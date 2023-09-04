@@ -1,3 +1,4 @@
+// Importing React File
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import '@fortawesome/fontawesome-free/css/all.min.css'; // for all icons
@@ -6,7 +7,7 @@ import '@fortawesome/fontawesome-free/css/solid.css'; // For Solid icons
 import '@fortawesome/fontawesome-free/css/regular.css'; // For Regular icons
 import '@fortawesome/fontawesome-free/css/brands.css'; // For Brand icons
 
-
+// Using Function As Default
 export default function FooterComp() {
     return (
         <MDBFooter bgColor='light' className='text-center foo-border text-lg-start text-muted p-4 mt-5'>

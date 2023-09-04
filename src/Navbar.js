@@ -1,8 +1,8 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+// Importing Bootstrap Components
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
-function NavbarComp() {
+// Using Function As Default
+export default function NavbarComp() {
     return (
         <Navbar expand="lg" sticky="top" className="navbar-bg">
             <Container fluid>
@@ -29,5 +29,3 @@ function NavbarComp() {
         </Navbar>
     );
 }
-
-export default NavbarComp;
