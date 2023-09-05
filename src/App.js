@@ -4,30 +4,19 @@ import React from 'react';
 import './index.css';
 // Importing Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-// Importing Cards By Row
-import { RowLayout, RowLayout2 } from './Row';
-// Importing Navbar Component
-import NavbarComp from './Navbar';
-// Importing Footer Component
-import FooterComp from './Footer';
-// Importing Slider
-import ImageHead from './ImageHead';
-
+import Counter from './Counter';
+import Calculator from './Calculator';
 
 function App() {
     return (
         <>
-            {/* Navbar Component */}
-            <NavbarComp />,
-            {/* Slider Component */}
-                <ImageHead />,
-        {/* Cards Row 1 Component */}
-                <RowLayout />,
-        {/* Cards Row 1 Component */}
-            <RowLayout2 />,
-            {/* Footer Component */}
-            <FooterComp />
-            </>
+            <div className="App">
+                {/* Counter Component */}
+                <Counter />
+                {/* Calculator Component */}
+                <Calculator />
+            </div>
+        </>
     );
 }
 export default App;
