@@ -10,13 +10,13 @@ export default function Counter() {
         setCount(Count - 1);
     }
     return (
-        <div className="counter-section container text-center">
+        <div className="counter-section container mt-5 w-25 text-center border">
             <h1>This is Counter</h1>
             <h2>Current Counter : {Count}</h2>
-            <p>To Increse press '+'</p>
-            <p>To Decrese press '-'</p>
-            <Button onClick={increse} className="p-3 m-2">+</Button>
-            <Button onClick={decrese} className="p-3 m-2">-</Button>
+            <p>To Increse press <Button onClick={increse} className="p-3 m-2">+</Button></p>
+            <p>To Decrese press <Button onClick={decrese} className="p-3 m-2">-</Button>
+            </p>
+
         </div>
     )
 }
