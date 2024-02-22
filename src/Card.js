@@ -11,7 +11,7 @@ const CardStyle = {
 
 const CardImg = {
     objectFit: 'contain',
-    maxWidth: '100%',
+    maxWidth: '100%', 
     height: '250px',
     margin: '20px 0',
     display: 'block'
