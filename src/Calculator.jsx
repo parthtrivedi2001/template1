@@ -58,5 +58,5 @@ export default function Counter() {
                 Divide
             </Button>
         </div>
-    );
+    ); 
 }
