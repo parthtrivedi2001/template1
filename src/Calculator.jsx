@@ -8,7 +8,7 @@ export default function Counter() {
 
     const handleInputChange = (event, fieldName) => {
         const newValue = parseInt(event.target.value);
-        setValues({ ...values, [fieldName]: newValue });
+        setValues({ ...values, [fieldName]: newValue });                          
     };
 
     const add = () => {
