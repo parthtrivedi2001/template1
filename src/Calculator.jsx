@@ -11,7 +11,7 @@ export default function Counter() {
         setValues({ ...values, [fieldName]: newValue });
     };
 
-    const add = () => {
+    const add = () => {                           
         const { Val1, Val2 } = values;
         setResult(Val1 + Val2);
     };
