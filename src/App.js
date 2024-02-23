@@ -1,11 +1,11 @@
 // Importing React File
 import React from 'react';
 // Importing CSS File
-import './index.css';
+import './index.css'; 
 // Importing Bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Counter from './Counter';
-import Calculator from './Calculator';
+import Calculator from './Calculator'; 
 
 function App() {
     return (
@@ -17,6 +17,6 @@ function App() {
                 <Calculator />
             </div>
         </>
-    );
+    ); 
 }
 export default App;
