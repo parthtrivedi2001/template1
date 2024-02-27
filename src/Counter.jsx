@@ -5,7 +5,7 @@ export default function Counter() {
     const [Count, setCount] = useState(0);
     const increse = () => {
         setCount(Count + 1);
-    }
+    } 
     const decrese = () => {
         setCount(Count - 1);
     }
